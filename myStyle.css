@@ -1,0 +1,34 @@
+.main{
+    width: 50%;
+    height: 80%;
+    position: fixed;
+    bottom: 10%;
+    top: 10%;
+    right: 25%;
+    left: 25%;
+    background-color: rgb(114, 165, 63);
+}
+.container{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    height: 70%;
+
+    
+    
+}
+
+.boxes div{
+    margin: 50px;
+}
+.box1 p{
+    color: gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#click{
+    background-color: rgba(58, 58, 238, 0.774);
+    width: 60px;
+    color: white;
+    border-radius: 60px;
+}

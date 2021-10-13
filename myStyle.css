@@ -11,8 +11,9 @@
 .container{
     background-color: white;
     margin: auto;
-    width: 90%;
+    width: 95%;
     height: 70%;
+    border-radius: 20px;
 
     
     
@@ -22,13 +23,38 @@
     margin: 50px;
 }
 .box1 p{
-    color: gray;
+    color: rgb(158, 152, 152);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 #click{
-    background-color: rgba(58, 58, 238, 0.774);
+    background-color: rgba(80, 80, 214, 0.774);
     width: 60px;
     color: white;
     border-radius: 60px;
+}
+.l2{
+    text-decoration: line-through;
+    color: rgb(158, 152, 152);
+    background-color: rgb(209, 205, 205);
+}
+
+.button1{
+       background-color:rgba(80, 80, 214, 0.774) ;
+       width: 40%;
+       border-radius: 60px;
+       color: white;
+    
+}
+.button2{
+    background-color: tomato;
+    width: 30%;
+    border-radius: 60px;
+    color: white;
+}
+.button3{
+    background-color: rgb(114, 165, 63);
+    width: 27%;
+    border-radius: 60px;
+    color: white;
 }

@@ -1,0 +1,48 @@
+.boxes{
+    width: 1000px;
+    height: 80%;
+    margin: 10% ;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+
+}
+
+.box1,.box2 ,img,h6{
+    display: inline;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    width: 335px;
+    font-size: 27px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    
+}
+h6{
+    font-size: 25px;
+    font-style:normal;
+    font-family:unset;
+}
+input,button,textarea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+button{
+    font-size: 25px;
+}
+
+
+

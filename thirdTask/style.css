@@ -2,29 +2,37 @@
     width: 1000px;
     height: 80%;
     margin: 10% ;
-    display: inline-flex;
+    display: flex;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content:space-evenly;
 
 }
 
-.box1,.box2 ,img,h6{
+.box1,.box2 ,img,h6,footer{
     display: inline;
 }
 input{
     display: block;
+}
+.input{
     width: 300px;
     height: 40px;
     font-size: 20px;
 }
 h1{
     font-size: 50px;
+    margin-bottom: 0px;
+    
 }
-p{
+.line{
+    border-top:peru 5px solid ;
+    width: 250px;
+}
+.p{
     width: 335px;
     font-size: 27px;
 }
-img{
+.logo{
     width: 20px;
     height: 20px;
     
@@ -34,15 +42,38 @@ h6{
     font-style:normal;
     font-family:unset;
 }
-input,button,textarea{
-    margin-top: 30px;
-    margin-bottom: 30px;
+input,button,textarea,.line{
+    margin-bottom: 40px;
     
 }
 
-button{
+.submit{
+    background-color:rgb(59, 58, 58);
     font-size: 25px;
+    font-weight:bold;
+    color: peru;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
 }
+textarea{
+    font-size: 20px;
+}
+.map{
+    width: 400px;
+    height: 245px;
+}
+footer{
+    width: 400px;
+   
+    display: flex;
+    margin: auto;
+}
+#p2{
+    color: peru;
+}
+
 
 
 
